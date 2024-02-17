@@ -3,11 +3,28 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #000000;
+  color: #F0EDCF;
+}
+
+a {
+  text-decoration: none;
+  color: #F0EDCF;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #40A2D8;
 }
 
 h1, p {
   margin: 0px;
   padding: 0px;
+}
+
+img { /*per evitare che le immagini strabordino*/
+  max-width: 50%;
 }
 
 ul {
@@ -17,15 +34,17 @@ ul {
   margin: 0px;
 }
 
-li {
+li { /*per avere la lista orizzontale*/
   display: inline; 
 }
 
 nav {
   position: fixed;
   width: 100%;
-  top: 0;
-  left: 0;
+  top: 0px;
+  left: 0px;
+  background-color: #0B60B0;
+  padding: 12px;
 }
 
 section {
@@ -34,4 +53,11 @@ section {
   justify-content: center;
   align-items: center;
   flex-basis: 100vh;
+}
+
+.project-tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
