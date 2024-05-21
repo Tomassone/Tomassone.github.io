@@ -1,3 +1,8 @@
+* { /* rimuovo margini, padding e robe varie di default */
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
 
 body {
   display: flex;
@@ -19,28 +24,21 @@ a:hover {
   color: #40A2D8;
 }
 
-h1, p {
-  margin: 0px;
-  padding: 0px;
-}
-
 .sec-title{
   font-weight: bold;
   padding: 7px;
 }
 
-img { /*per evitare che le immagini strabordino*/
+img { /* per evitare che le immagini strabordino */
   max-width: 70%;
 }
 
 ul {
   list-style-type: none;
   align-items: baseline;
-  padding: 0px;
-  margin: 0px;
 }
 
-li { /*per avere la lista orizzontale*/
+li { /* per avere la lista orizzontale */
   display: inline; 
 }
 
