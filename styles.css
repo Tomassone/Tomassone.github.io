@@ -68,8 +68,9 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 12px;
 }
 
 .project-img {
-  padding: 11px;
+  padding: 10px;
 }
