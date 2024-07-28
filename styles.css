@@ -51,6 +51,10 @@ nav {
   padding: 12px;
 }
 
+.nav-sec {
+  padding: 5px;
+}
+
 section {
   display: flex;
   flex-direction: column;
@@ -64,4 +68,8 @@ section {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+.project-img {
+  padding: 11px;
 }
